@@ -11,3 +11,6 @@ print("La multiplicación  es igual a " +str(items["mul"]))
 print("La división es igual a " +str(items["div"]))
 print("La elevación del primer numero al segundo es de " +str(items["cua"]))
 print("El modulo de dividir es igual a " +str(items["div"]))
+
+
+print("Karen")
