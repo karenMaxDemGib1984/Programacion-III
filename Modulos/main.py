@@ -19,4 +19,9 @@ print("Karen")
 print("Commit")
 
 print("Erick estuvo aqui XD")
+<<<<<<< HEAD
 print("Hola Isa")
+=======
+
+print("A valer en el examen XDDDDD")
+>>>>>>> 55f8773d4dbe7ecd0f3d2d7ca5dae509eb6edd7d
