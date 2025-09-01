@@ -29,3 +29,8 @@ print("Karen me esta estresando")
 
 
 #Comentario desde la rama remota portillo
+<<<<<<< HEAD
+=======
+
+#Comentario desde la rama remota paz
+>>>>>>> paz
