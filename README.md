@@ -16,4 +16,3 @@ Se puede separar las clases de  los datos que queremos tener almacenados por eje
 
 ¿De qué manera el uso de GitHub facilitó el trabajo colaborativo en equipo? Que cuando uno estaba creando una clase el otro podia estar creando las funciones para que pida los datos los almacenaban en  ramas para que no hubieran conflictos i los dos como master envian cambios al mismo tiempo asi uno actualizaba su master con su rama y enviar su cambio asi el otro podia hacer un "git pull "y actualizar el cambio del otro y despues enviar el suyo y es mejor asi que ya se que sentimos que avanzamos mas rapido.
 
-lala
