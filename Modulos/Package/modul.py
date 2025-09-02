@@ -23,9 +23,6 @@ class Viaje:
         print(f"Resumen Semanal: Tiempo total invertido: {total_tiempo} horas, Gasto total: ${total_costo}")
 
 
-viaje1 = Viaje('San Miguel', 'San Salvador', 4, 5)     
-viaje1.mostrar_viajes()
-viaje1.resumen_semanal()
 
 
 
