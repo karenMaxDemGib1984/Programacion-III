@@ -24,7 +24,8 @@ while True:
 
 
 
-viaje1 = Viaje('San Miguel', 'San Salvador', 4, 5)     
-viaje1.mostrar_viajes()
-viaje1.resumen_semanal()
 
+for v in viajes:
+    viaje2 = Viaje(v[0], v[1], v[2], v[3])     
+    viaje2.mostrar_viajes()
+    viaje2.resumen_semanal() 
