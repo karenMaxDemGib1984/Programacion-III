@@ -16,22 +16,3 @@
 
 #¿De qué manera el uso de GitHub facilitó el trabajo colaborativo en equipo? Den un ejemplo concreto
 
-class Viaje:
-    viajes = []
-    
-    def __init__(self,origen,destino,tiempo,costo):
-        self.origen = origen
-        self.destino = destino
-        self.tiempo = tiempo
-        self.costo = costo
-        self.viajes.append(self)
-        
-    def mostrar_viajes(self):
-        for i,viaje in enumerate(Viaje.viajes,1):
-            print(f"{i} - Origen: {viaje.origen} "+
-                f"Destino: {viaje.destino} Tiempo: {viaje.tiempo} mins Costo: ${viaje.costo}")
-                
-    def resumen_semanal(self):
-        total_tiempo = sum(viaje.tiempo for viaje in self.viajes)
-        total_costo = sum(viaje.costo for viaje in self.viajes)
-        print(f"Resumen Semanal: Tiempo total invertido: {total_tiempo} mins, Gasto total: ${total_costo}")
