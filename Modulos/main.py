@@ -1,39 +1,23 @@
-import Package.modul as Modulo
+from Package.modul import *
 
 
-v1 = float(input("Ingresa un valor "))
-v2 = float(input("ingresa otro valor "))
-items = Modulo.opbasicas(v1, v2)
-
-print("La suma es igual a " + str(items["suma"]))
-print("La resta es igual a " +str(items["resta"]))
-print("La multiplicación  es igual a " +str(items["mul"]))
-print("La división es igual a " +str(items["div"]))
-print("La elevación del primer numero al segundo es de " +str(items["cua"]))
-print("El modulo de dividir es igual a " +str(items["div"]))
-
-
-
-print("Karen")
-
-print("Commit")
-
-print("Erick estuvo aqui XD")
-
-print("Hola Isa")
-
-
-print("A valer en el examen XDDDDD")
+#Manejo de excepciones try- except
+while True:
+    try:
+       print("************** Datos de su viaje ****************")
+       origen = input("Ingrese su lugar de origen ")
+       destino = input("Ingrese su lugar de destino ")
+       tiempo = float(input("Ingrese las horas que dura el viaje "))
+       costo = float(input("Ingrese lo que cuenta el viaje "))       
+    except:
+        print("Debe ingresar solo datos válidos")        
+    finally:
+        op = input("¿Desea ingresar datos de otro viaje? (s/n)")
+        if (op == "n"):
+            break
 
 
 
-
-print("A valer en el examen XDDDDD")
-
-print("Karen me esta estresando")
-
-
-#Comentario desde la rama remota portillo
-
-#Comentario desde la rama remota paz
-
+viaje1 = Viaje('San Miguel', 'San Salvador', 4, 5)     
+viaje1.mostrar_viajes()
+viaje1.resumen_semanal()
