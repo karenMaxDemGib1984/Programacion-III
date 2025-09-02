@@ -8,6 +8,7 @@ Erick Josué Rivera Velásquez      SMSS147524
 Yolanda Isabel Marroquin          SMSS047424
 
 Preguntas
+
 ¿Qué ventajas tiene en comparación con poner todo el código en un solo archivo o utilizar módulos?
 
 ¿Cómo aplicaron la Programación Orientada a Objetos en su solución? Describan el papel de las clases creadas.
