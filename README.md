@@ -9,5 +9,3 @@ Yolanda Isabel Marroquin          SMSS047424
 
 Moisés Abelino Ramírez Rubio    SMSS217724
 
-
-
